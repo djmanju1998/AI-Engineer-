@@ -41,3 +41,19 @@
 # print("Quantity:", Quantity)
 # print("Total Cost:", Total_cost)
 
+# task1
+# def square(num):
+#     return num * num
+
+# result = square(6)
+# print("Square of 5 is:", result)
+
+# task2
+def is_even(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+number = int(input("Enter a number: "))
+result = is_even(number)
+print(f"The number {number} is {result}.")
